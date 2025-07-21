@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "env": {
+    "BUSINESS_NAME": "Yannn",
+    "TEMPLATE_ID": "dentist-modern",
+    "MODULES": "Booking,Gallery,Blog,staff",
+    "THEME": "Light"
+  }
+}
